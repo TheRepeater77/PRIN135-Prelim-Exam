@@ -53,6 +53,7 @@ nav ul a li:active
 {
     background: #4D4E53;
     transition: 0.2s; 
+    color: white;
 }
 
 nav a{
