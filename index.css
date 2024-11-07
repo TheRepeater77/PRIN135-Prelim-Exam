@@ -64,7 +64,7 @@ nav a{
 .prof-link:hover{
     text-decoration: underline;
 }
-/* Nav END =================================s */
+/* Nav END ================================= */
 
 /* ================================= Sections START */
 #headers{
@@ -103,4 +103,18 @@ nav a{
     padding: 20px;
     padding-left: 0;
 }
-/* Sections END =================================s */
+/* Sections END ================================= */
+
+
+/* ================================= Laptop Responsive START */
+@media screen and (max-width:425px){
+    
+}
+/* Laptop Responsive END ================================= */
+
+
+/* ================================= Mobile Responsive START */
+@media screen and (max-width:425px){
+    
+}
+/* Mobile Responsive END ================================= */
