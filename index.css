@@ -11,110 +11,196 @@ html{
     width: 100%;
     scroll-behavior: smooth;
 }
-
-body{
-    display:flex;
-    flex-direction: column;
-    align-items: flex-end;
-    background: #F1F1F1;
-}
-
-/* ================================= Nav START */
-nav{
-    position: fixed;
-    align-self: flex-start;
-    height: 100%;
-    width: 30%;
-    z-index: 1;
-
-    background: #F1F1F1;
-
-    border-right: solid 2px #525252;
-
-    overflow:auto;
-}
-
-nav h1{
-    padding: 20px;
-    font-size: 30px;
-}
-
-nav ul li{
-    border-top: solid 2px #525252;
-
-    color: rgb(94, 94, 94);
-
-    padding: 20px;
-    transition: 0.2s; 
-}
-
-nav ul a li:hover,
-nav ul a li:active
-{
-    background: #4D4E53;
-    transition: 0.2s; 
-    color: white;
-}
-
-nav a{
-    text-decoration: none;
-}
-
-.prof-link:active,
-.prof-link:hover{
-    text-decoration: underline;
-}
-/* Nav END ================================= */
-
-/* ================================= Sections START */
-#headers{
-    border-top: 0;
-}
-
-.section{
-    position: relative;
-    width: 70%;
-    height: 100%;
-
-    padding: 25px;
-
-    border-top: solid 2px #525252;
-
-    overflow: auto;
-    background: #F1F1F1;
-}
-
-.section table{
-    border: solid 2px #1c1c1c;
-    border-collapse: collapse;
-}
-
-.section table td{
-    padding: 20px;
-    border: solid 2px #1c1c1c;
-}
-
-.section thead{
-    border: solid 2px #1c1c1c;
-}
-
-.section-header{
-    font-size: 30px;
-    padding: 20px;
-    padding-left: 0;
-}
-/* Sections END ================================= */
-
-
-/* ================================= Laptop Responsive START */
+/* ||||||||||||||||||||||||||||||||||||||| Laptop Responsive START */
 @media screen and (min-width:425px){
-    
+    body{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        background: #F1F1F1;
+    }
+    /* ================================= Nav START */
+    nav{
+        position: fixed;
+        align-self: flex-start;
+        height: 100%;
+        width: 30%;
+        z-index: 1;
+
+        background: #F1F1F1;
+
+        border-right: solid 2px #525252;
+
+        overflow:auto;
+    }
+
+    nav h1{
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    nav ul li{
+        border-top: solid 2px #525252;
+
+        color: rgb(94, 94, 94);
+
+        padding: 20px;
+        transition: 0.2s; 
+    }
+
+    nav ul a li:hover,
+    nav ul a li:active
+    {
+        background: #4D4E53;
+        transition: 0.2s; 
+        color: white;
+    }
+
+    nav a{
+        text-decoration: none;
+    }
+
+    .prof-link:active,
+    .prof-link:hover{
+        text-decoration: underline;
+    }
+    /* Nav END ================================= */
+
+    /* ================================= Sections START */
+    #headers{
+        border-top: 0;
+    }
+
+    .section{
+        position: relative;
+        width: 70%;
+        height: 100%;
+
+        padding: 25px;
+
+        border-top: solid 2px #525252;
+
+        overflow: auto;
+        background: #F1F1F1;
+    }
+
+    .section table{
+        border: solid 2px #1c1c1c;
+        border-collapse: collapse;
+    }
+
+    .section table td{
+        padding: 20px;
+        border: solid 2px #1c1c1c;
+    }
+
+    .section thead{
+        border: solid 2px #1c1c1c;
+    }
+
+    .section-header{
+        font-size: 30px;
+        padding: 20px;
+        padding-left: 0;
+    }
+    /* Sections END ================================= */
 }
-/* Laptop Responsive END ================================= */
+/* Laptop Responsive END ||||||||||||||||||||||||||||||||||||||| */
 
 
-/* ================================= Mobile Responsive START */
+/* ||||||||||||||||||||||||||||||||||||||| Mobile Responsive START */
 @media screen and (max-width: 425px){
+    body{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        background: #F1F1F1;
+    }
+
+    /* ================================= Nav START */
+    nav{
+        position: fixed;
+        
+        height: 30%;
+        width: 100%;
+        z-index: 1;
     
+        background: #F1F1F1;
+    
+        border-right: solid 2px #525252;
+    
+        overflow:auto;
+    }
+
+    nav h1{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    nav ul li{
+        border-top: solid 2px #525252;
+    
+        color: rgb(94, 94, 94);
+    
+        padding: 20px;
+        transition: 0.2s; 
+    }
+    
+    nav ul a li:hover,
+    nav ul a li:active
+    {
+        background: #4D4E53;
+        transition: 0.2s; 
+        color: white;
+    }
+    
+    nav a{
+        text-decoration: none;
+    }
+    
+    .prof-link:active,
+    .prof-link:hover{
+        text-decoration: underline;
+    }
+    /* Nav END ================================= */
+
+    /* ================================= Sections START */
+    #headers{
+        border-top: 0;
+    }
+
+    .section{
+        position: relative;
+        width: 70%;
+        height: 100%;
+
+        padding: 25px;
+
+        border-top: solid 2px #525252;
+
+        overflow: auto;
+        background: #F1F1F1;
+    }
+
+    .section table{
+        border: solid 2px #1c1c1c;
+        border-collapse: collapse;
+    }
+
+    .section table td{
+        padding: 20px;
+        border: solid 2px #1c1c1c;
+    }
+
+    .section thead{
+        border: solid 2px #1c1c1c;
+    }
+
+    .section-header{
+        font-size: 30px;
+        padding: 20px;
+        padding-left: 0;
+    }
+    /* Sections END ================================= */
 }
-/* Mobile Responsive END ================================= */
+/* Mobile Responsive END ||||||||||||||||||||||||||||||||||||||| */
